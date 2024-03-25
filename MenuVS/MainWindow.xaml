@@ -1,0 +1,198 @@
+﻿<Window x:Class="MenuVS.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MenuVS"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Menu VerticalAlignment="Top">
+            <Menu>
+                <MenuItem Header="Файл">
+                    <MenuItem Header="Создать">
+                        <MenuItem Header="Проект"/>
+                        <MenuItem Header="Репозиторий"/>
+                        <MenuItem Header="Файл"/>
+                        <MenuItem Header="Проект из существующего кода"/>
+                    </MenuItem>
+                    <MenuItem Header="Откыть">
+                        <MenuItem>
+                            <MenuItem Header="Решение или проект"/>
+                            <MenuItem Header="Папка"/>
+                            <MenuItem Header="Веб-сайт"/>
+                            <MenuItem Header="Файл"/>
+                        </MenuItem>
+                    </MenuItem>
+                    <MenuItem Header="Клонирование репозиторий"/>
+                    <MenuItem Header="Начальное окно"/>
+                    <MenuItem Header="Добавить">
+                        <MenuItem Header="Создать проект"/>
+                        <MenuItem Header="Существующий проект"/>
+                        <MenuItem Header="Существующий веб-сайт"/>
+                    </MenuItem>
+                    <MenuItem Header="Закрыть"/>
+                    <MenuItem Header="Закрыть Решение"/>
+                    <MenuItem Header="Запустить сеанс Live Share"/>
+                    <MenuItem Header="Присоединиться к сеансу Live Share"/>
+                    <MenuItem Header="Сохранить MainWindow.xaml"/>
+                    <MenuItem Header="Сохранить MainWindow.xaml как"/>
+                    <MenuItem Header="Сохранить все"/>
+                    <MenuItem Header="Параметры страницы"/>
+                    <MenuItem Header="Печать"/>
+                    <MenuItem Header="Параметры учетной записи"/>
+                    <MenuItem Header="Последние файлы">
+                        <MenuItem Header=""/>
+                    </MenuItem>
+                    <MenuItem Header="Последние проекты и решения">
+                        <MenuItem Header=""/>
+                    </MenuItem>
+                    <MenuItem Header="Выход"/>
+
+                </MenuItem>
+                <MenuItem Header="Правка">
+                    <MenuItem Header="Перейти">
+                        <MenuItem Header="Перейти к строке"/>
+                        <MenuItem Header="Перейти к тексту"/>
+                        <MenuItem Header="Перейти ко всем"/>
+                        <MenuItem Header="Перейти к файлу"/>
+                        <MenuItem Header="Перейти к последнему файлу"/>
+                        <MenuItem Header="Перейти к типу"/>
+                        <MenuItem Header="Перейти к элемеету"/>
+                        <MenuItem Header="Перейти к символу"/>
+                        <MenuItem Header="Перейти к следующей проблеме в файле"/>
+                        <MenuItem Header="Перейти к предыдущей проблеме в файле"/>
+                        <MenuItem Header="Перейти к последнему изменению"/>
+                    </MenuItem>
+                    <MenuItem Header="Найти и заменить">
+                        <MenuItem Header="Быстрый поиск"/>
+                        <MenuItem Header="Быстрая замена"/>
+                        <MenuItem Header="Найти в файлах"/>
+                        <MenuItem Header="Заменить в файле"/>
+                    </MenuItem>
+                    <MenuItem Header="Отменить"/>
+                    <MenuItem Header="Вернуть"/>
+                    <MenuItem Header="Отменить последнее глобальное действие"/>
+                    <MenuItem Header="Повторить последнее глобальное действие"/>
+                    <MenuItem Header="Вырезать"/>
+                    <MenuItem Header="Копировать"/>
+                    <MenuItem Header="Вставить"/>
+                    <MenuItem Header="Показать журнал буфера обмена"/>
+                    <MenuItem Header="Дублирование"/>
+                    <MenuItem Header="Удалить"/>
+                    <MenuItem Header="Выделить все"/>
+                    <MenuItem Header="Вставить файл как в тексте"/>
+                    <MenuItem Header="Дополнительно">
+                        <MenuItem Header="Переключить проверку орфографии"/>
+                        <MenuItem Header="Форматировать документ"/>
+                        <MenuItem Header="Форматировать выделенный фрагмент"/>
+                        <MenuItem Header="Табифицировать выделение строки"/>
+                        <MenuItem Header="Детабифицировать выделение строки"/>
+                        <MenuItem Header="все прописные"/>
+                        <MenuItem Header="все строчные"/>
+
+
+
+
+
+                    </MenuItem>
+                </MenuItem>
+                <MenuItem Header="Вид">
+                    <MenuItem Header="Код"/>
+                    <MenuItem Header="Конструктор"/>
+                    <MenuItem Header="Открыть"/>
+                    <MenuItem Header="Открыть с помощью"/>
+                    <MenuItem Header="Проектировать в Blend"/>
+                    <MenuItem Header="Обозреватель решений"/>
+                    <MenuItem Header="Изменения Git"/>
+                    <MenuItem Header="Репозиторий Git"/>
+                    <MenuItem Header="Team Explorer"/>
+                    <MenuItem Header="Обозреватель серверов"/>
+                    <MenuItem Header="обозреватель Data Lake Analytics"/>
+                    <MenuItem Header="Обозреватель объектов SQL Server"/>
+
+
+                </MenuItem>
+                <MenuItem Header="Git">
+                    <MenuItem Header="Клонирование репозитории"/>
+                    <MenuItem Header="Создат репозитории Git"/>
+                    <MenuItem Header="Локальные репозитории">
+                        <MenuItem Header="Открыть локальные репозитории"/>
+                    </MenuItem>
+                    <MenuItem Header="Зафиксировать или прятать"/>
+                    <MenuItem Header="Параметры"/>
+                </MenuItem>
+                <MenuItem Header="Проект">
+                    <MenuItem Header="Добавить окно (WPF)"/>
+                    <MenuItem Header="Добавит страницу (WPF)"/>
+                    <MenuItem Header="Добваить пользовательский элемент управления (WPF)"/>
+                </MenuItem>
+                <MenuItem Header="Сборка">
+                    <MenuItem Header="Собрать решение"/>
+                    <MenuItem Header="Пересобрать решение"/>
+                    <MenuItem Header="Очистить решение"/>
+                    <MenuItem Header="Выполнить анализ кода решений"/>
+                    <MenuItem Header="Построить"/>
+                    <MenuItem Header="Перестроить"/>
+                    <MenuItem Header="Очистить"/>
+                    <MenuItem Header="Опубликовать"/>
+                    <MenuItem Header="Запустить анализ кода на"/>
+                    <MenuItem Header="Пакетная сборка"/>
+                    <MenuItem Header="Диспетчер конфигураций"/>
+                </MenuItem>
+                <MenuItem Header="Отладка">
+                    <MenuItem Header="Окна"/>
+                    <MenuItem Header="Начать отладку"/>
+                    <MenuItem Header="Запустить без отладки"/>
+                    <MenuItem Header="Применить изменения кода"/>
+                    <MenuItem Header="Профилировщик производительности"/>
+                    <MenuItem Header="Перезапустить профилировщик производительности"/>
+                    <MenuItem Header="Присоедниться к процессу"/>
+                    <MenuItem Header="Повторно подключиться к процессу"/>
+                    <MenuItem Header="Другие целевые объекты"/>
+                </MenuItem>
+                <MenuItem Header="Тест">
+                    <MenuItem Header="Запуск всех тестов"/>
+                </MenuItem>
+                <MenuItem Header="Анализ">
+                    <MenuItem Header="Очистка кода">
+                        <MenuItem Header="Запустить очистку кода"/>
+                    </MenuItem>
+                </MenuItem>
+                <MenuItem Header="Средства">
+                    <MenuItem Header="Полусить средства и компоненты"/>
+                </MenuItem>
+                <MenuItem Header="Расширения">
+                    <MenuItem Header="Настройка меню"/>
+                </MenuItem>
+                <MenuItem Header="Окно">
+                    <MenuItem Header="Разделить"/>
+                </MenuItem>
+                <MenuItem Header="Справка">
+                    <MenuItem Header="Просмотр справки"/>
+                </MenuItem>
+                <TextBox Foreground="LightGray" Width="100">Поиск...</TextBox>
+            </Menu>
+            <Menu Height="25" VerticalAlignment="Top" Background="LightGray">
+                <MenuItem>
+                    <MenuItem.Header>
+                        <StackPanel Orientation="Horizontal">
+                            <Ellipse Height="10" Width="10" Fill="Black" Margin="0 0 5 0" />
+                            <ComboBox >
+                                <ComboBoxItem Content="Main."/>
+                            </ComboBox>
+                        </StackPanel>
+                    </MenuItem.Header>
+                </MenuItem>
+                <ComboBox >
+                    <ComboBoxItem Content="Создать проект"/>
+                </ComboBox>
+                <MenuItem Header="Открыть файл"/>
+                <MenuItem Header="Быстрое сохранение"/>
+                <MenuItem Header="Сохранение как"/>
+                <MenuItem Header=""/>
+            </Menu>
+        </Menu>
+
+    </Grid>
+</Window>
